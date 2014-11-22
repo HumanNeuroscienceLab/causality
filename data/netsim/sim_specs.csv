@@ -1,0 +1,31 @@
+# Skip the first two lines
+# Sim,# nodes,Session duration (min),TR (s),Noise (%),HRF std. dev. (s),Other factors
+sim,num nodes,duration,tr,noise,hrf std,other
+1,5,10,3.00,1.0,0.5,
+2,10,10,3.00,1.0,0.5,
+3,15,10,3.00,1.0,0.5,
+4,50,10,3.00,1.0,0.5,
+5,5,60,3.00,1.0,0.5,
+6,10,60,3.00,1.0,0.5,
+7,5,250,3.00,1.0,0.5,
+8,5,10,3.00,1.0,0.5,shared inputs
+9,5,250,3.00,1.0,0.5,shared inputs
+10,5,10,3.00,1.0,0.5,global mean confound
+11,10,10,3.00,1.0,0.5,bad ROIs (timeseries mixed with each other)
+12,10,10,3.00,1.0,0.5,bad ROIs (new random timeseries mixed in)
+13,5,10,3.00,1.0,0.5,backwards connections
+14,5,10,3.00,1.0,0.5,cyclic connections
+15,5,10,3.00,0.1,0.5,stronger connections
+16,5,10,3.00,1.0,0.5,more connections
+17,10,10,3.00,0.1,0.5,
+18,5,10,3.00,1.0,0.0,
+19,5,10,0.25,0.1,0.5,neural lag = 100 ms
+20,5,10,0.25,0.1,0.0,neural lag = 100 ms
+21,5,10,3.00,1.0,0.5,2-group test
+22,5,10,3.00,0.1,0.5,nonstationary connection strengths
+23,5,10,3.00,0.1,0.5,stationary connection strengths
+24,5,10,3.00,0.1,0.5,only one strong external input
+25,5,5,3.00,1.0,0.5,
+26,5,2.5,3.00,1.0,0.5,
+27,5,2.5,3.00,0.1,0.5,
+28,5,5,3.00,0.1,0.5,
